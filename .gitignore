@@ -1,0 +1,20 @@
+# Generated workspace: repos, venv, logs, config, keys and backups
+mgu-workspace/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Never commit keys or coding backups, wherever they are
+id_rsa
+id_rsa.*
+*.ppk
+**/data/enrollments/
+**/data/preflight/
